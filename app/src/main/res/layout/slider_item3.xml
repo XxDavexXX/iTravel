@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idRLSlider"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333B43">
+
+    <ImageView
+        android:id="@+id/idIVSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gps_simbolo" />
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="'' Sigue en vivo el recorrido de los vehículos y verifica la disponibilidad de asientos. ''"
+        android:textSize="25sp"
+        android:layout_below="@+id/idIVSlider"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:textStyle="italic"
+        android:paddingTop="50dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black">
+    </TextView>
+
+
+
+</RelativeLayout>
